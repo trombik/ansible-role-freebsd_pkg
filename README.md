@@ -1,6 +1,7 @@
 # trombik.freebsd_pkg
 
-A brief description of the role goes here.
+Edit `pkg.conf(5)`. To add/remove repositories, use
+[trombik.freebsd_pkg_repo](https://github.com/trombik/ansible-role-freebsd_pkg_repo).
 
 # Requirements
 
