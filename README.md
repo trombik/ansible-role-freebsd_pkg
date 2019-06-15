@@ -8,9 +8,11 @@ None
 
 # Role Variables
 
-| variable | description | default |
+| Variable | Description | Default |
 |----------|-------------|---------|
-
+| `freebsd_pkg_conf_dir` | base directory of `pkg.conf(5)`. | `/usr/local/etc` |
+| `freebsd_pkg_conf_file` | path to `pkg.conf(5)` | `{{ freebsd_pkg_conf_dir }}/pkg.conf` |
+| `freebsd_pkg_config` | content of `pkg.conf(5)` | `""` |
 
 # Dependencies
 
@@ -19,6 +21,13 @@ None
 # Example Playbook
 
 ```yaml
+---
+- hosts: localhost
+  roles:
+    - ansible-role-freebsd_pkg
+  vars:
+    freebsd_pkg_config: |
+      IGNORE_OSVERSION=yes
 ```
 
 # License
