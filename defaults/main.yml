@@ -1,0 +1,9 @@
+---
+freebsd_pkg_user: freebsd_pkg
+freebsd_pkg_group: freebsd_pkg
+freebsd_pkg_log_dir: /var/log/freebsd_pkg
+freebsd_pkg_db_dir: "{{ __freebsd_pkg_db_dir }}"
+freebsd_pkg_service: freebsd_pkg
+freebsd_pkg_conf_dir: "{{ __freebsd_pkg_conf_dir }}"
+freebsd_pkg_conf_file: "{{ __freebsd_pkg_conf_dir }}/freebsd_pkg.conf"
+freebsd_pkg_flags: ""
