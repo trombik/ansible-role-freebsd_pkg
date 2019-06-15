@@ -1,7 +1,7 @@
 require "spec_helper"
 require "serverspec"
 
-config  = "/usr/local/etc/pkg.conf"
+config = "/usr/local/etc/pkg.conf"
 
 describe file(config) do
   it { should be_file }
