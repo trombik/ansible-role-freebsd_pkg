@@ -1,4 +1,4 @@
-# ansible-role-freebsd_pkg
+# trombik.freebsd_pkg
 
 A brief description of the role goes here.
 

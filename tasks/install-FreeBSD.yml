@@ -1,6 +1,0 @@
----
-
-- name: Install freebsd_pkg
-  pkgng:
-    name: freebsd_pkg
-    state: present
